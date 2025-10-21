@@ -1,0 +1,22 @@
+{
+  "prediction": {
+    "type": "float",
+    "required": true,
+    "min": 0,
+    "max": 1
+  },
+  "confidence": {
+    "type": "float",
+    "required": true,
+    "min": 0,
+    "max": 1
+  },
+  "risk_level": {
+    "type": "str",
+    "required": true
+  },
+  "processed_at": {
+    "type": "str",
+    "required": true
+  }
+}
